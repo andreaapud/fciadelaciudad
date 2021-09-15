@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <a href="index.html"><img class= "logo"src="imagenes/default.png" alt="logo"></a>
+    <nav class="nav">
+        <ul class="menu">
+            <li><a class="lista1" href="perfumeria.html" target="blanck">Perfumería</a></li>
+            <li><a class="lista1" href="reservaDeMedicamentos.html" target="blanck">Reserva de medicamentos</a></li>
+            <li><a class="lista1" href="suplementosDietarios.html" target="blanck">Suplementos dietarios</a></li>
+            <li><a class="lista1" href="cuidadoDeLaSalud.html" target="blanck">Cuidado de la salud</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h1 class="titulo2">Formulario de contacto</h1>
+    <p>Si querés dejarnos alguna sugerencia, recomendación, consulta o simplemente dejar un comentario, podes hacerlo acá. </p>
+    <form class="formulario2" action="" method="GET">
+        <!--input-->
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Escribí tu nombre" id="nombre">
+        <br>
+        <label for="apeliido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Escribí tu apellido">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Escribí tu email">
+        <br>
+        <!--checkbox-->
+        <h3>¿Sos residente de la ciudad de Carhué en la actualidad?</h3>
+        <label for="si">Sí</label>
+        <input type="checkbox" name="si" id="si">
+        <br>
+        <label for="no">No</label>
+        <input type="checkbox" name="no" id="no">
+        <br>
+        <!--menú desplegable-->
+        <h3>Obra social</h3>
+        <select name="obrasocial" id="obrasocial">
+            <option value="OSDE">OSDE</option>
+            <option value="IOMA">IOMA</option>
+            <option value="PAMI">PAMI</option>
+            <option value="unionpersonal">Unión Personal</option>
+            <option value="avalian">AVALIAN</option>
+            <option value="notiene">No tengo</option>
+            </select>
+        <br>
+        <!--botón para resetear info-->
+        <input type="reset" value="Resetear">
+        <br>
+        <!--Espacio para comentarios-->
+        <textarea name="" id="" cols="30" rows="10"></textarea> 
+        <br>
+        <!--botón de envío-->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,187 @@
+/*Logo*/
+.logo{
+    display: block;
+    margin: auto;
+}
+
+/*Inicio menú*/
+.nav{
+    width: 1000px;
+    margin: 30px auto; 
+    background-image: linear-gradient(to right, #0cebeb , #20e3b2 , #29ffc6);
+}
+
+.nav ul{
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display:block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:hover{
+    color: gray;
+    transform: translate(5px, 10px);
+}
+
+.titulo2{
+    color: black ;
+    font-weight: 600;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.calendario{
+    display: block;
+    margin: auto;
+}
+
+.ooss{
+    color: black ;
+    font-weight: 600;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.lista2{
+    color:#070707;
+    font-weight: bold;
+    display: inline;
+}
+
+.titulo3{
+    color: #33543C ;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.lista3{
+    color:#070707;
+    font-weight: bold;
+    display: inline;
+}
+
+.tabla1{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(175, 243, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.titulosTabla{
+    color:#33543C;
+    font-size:large;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.imagen1{
+    width: 200px; 
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.rrss{
+    list-style: none;
+}
+
+.logorrss{
+    width: 50px; 
+    height: 50px;    
+}
+
+.logorrss1{
+    width: 80px; 
+    height: 40px;
+}
+
+/*FOOTER*/
+.footer{
+    background-image: linear-gradient(to right, #0cebeb , #20e3b2 , #29ffc6);
+    height:50x;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-items:center;
+}
+
+.formulario2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*SECCION PERFUMERIA, SUPLEMENTOS DIETARIOS Y CUIDADO DE LA SALUD*/
+.titulosPerfumeria{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    text-transform: none;
+    text-align: center;
+}
+
+.seccionPerfumeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+.pic{
+    width: 200px; 
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.pic:hover{
+    transform: scale(1.5);
+}
+/* FIN SECCION PERFUMERIA, SUPLEMENTOS DIETARIOS Y CUIDADO DE LA SALUD*/
+
+.listaOOSS{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.picOOSS{
+    width:225px;
+    height: 225px;
+}
+
+.boton{
+    background-image: linear-gradient(to right, #0cebeb , #20e3b2 , #29ffc6);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.osde{
+    width:230px;
+    height: 200px;
+}
+
+.logosecc{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+

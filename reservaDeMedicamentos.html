@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reserva de medicamentos para evitar filas y demoras. Consulta por coberturas segun obras sociales.">
+    <meta name="keywords" content="farmacia, medicamentos, pami, vacunas, obras sociales, descuentos">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Reseva de medicamentos</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <!--Logo-->
+                <div class="row">
+                    <img class="logo" src="imagenes/default.png" alt="logo">
+                </div>
+        <!--Inicio menú bootstrap-->
+        <nav>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="dropdown navbar">
+              <button class="btn boton dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                Menú
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a class="menu2" href="perfumeria.html" target="blanck"><button class="dropdown-item" type="button">Perfumería</a></button></li>
+                <li><a class="menu2" href="cuidadoDeLaSalud.html" target="blanck"><button class="dropdown-item" type="button">Cuidado de la salud</a></button></li>
+                <li><a class="menu2" href="suplementosDietarios.html" target="blanck"><button class="dropdown-item" type="button">Suplementos dietarios</a></button></li>
+                <li><a class="menu2" href="ortopedia.html" target="blanck"><button class="dropdown-item" type="button">Ortopedia</a></button></li>
+                <li><a class="menu2" href="reservaDeMedicamentos.html" target="blanck"><button class="dropdown-item" type="button">Reserva de medicamentos</a></button></li>
+              </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <nav class="navbar">
+                <div class="container-fluid">
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+                    <button class="btn boton" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+            <div class="col-md-2">
+              <p><a href="###"><button class="btn boton" type="submit">Iniciar sesión</button></a></p>
+            </div>
+          </div>
+        </nav>
+        <!--Fin menú bootstrap-->
+                <!--Acá iría una barra de búsqueda de medicamentos y simulador de descuento
+        según obra social-->
+        <form class="formulario2" action="" method="GET">
+            <!--input-->
+            <label for="nombre">Nombre del medicamento</label>
+            <input type="text" name="nombre" placeholder="Escribí la droga o nombre comercial" id="nombre">
+            <br>
+            <label for="apeliido">Apellido y nombre</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Escribí tu apellido">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Escribí tu email">
+            <br>
+            <!--menú desplegable-->
+            <h3>Obra social</h3>
+            <select name="obrasocial" id="obrasocial">
+                <option value="OSDE">OSDE</option>
+                <option value="IOMA">IOMA</option>
+                <option value="PAMI">PAMI</option>
+                <option value="unionpersonal">Unión Personal</option>
+                <option value="avalian">AVALIAN</option>
+                <option value="notiene">No tengo</option>
+                </select>
+                <br>
+                    <!--botón de envío-->
+            <input type="submit" value="Reservar">
+    </form>
+</header>
+
+<!--Inicio pie de página-->
+<h3 class="titulo2">Información de contacto</h3>
+<footer class="footer">
+    <div>
+      <a href="contacto.html" target="blanck"><h4>Formulario de contacto</h4></a>
+      <p>Horarios de atención: ###</p>
+      <p>Dirección: <a href="https://www.google.com/maps/place/Farmacia+de+la+Ciudad+de+Carhue/@-37.1820857,-62.7608476,18z/data=!4m5!3m4!1s0x95ea2705b0f3e5c9:0x17cfc708907c0ee9!8m2!3d-37.1818975!4d-62.7605322">Av. San Martin y Laprida - Carhué</a></p>
+    </div>
+    <div>
+      <ul class="rrss">
+        <li>
+          <img class="logorrss"src="imagenes/600px-Facebook_f_logo_(2019).svg.png"alt="facebook"/>
+          <a href="#">Facebook</a>
+      </li>
+      <li>
+          <img class="logorrss"src="imagenes/Instagram-logo-500x500.png"alt="instagram"/>
+          <a href="#">Instagram</a>
+      </li>
+      <li>
+        <img class="logorrss1"src="imagenes/WhatsApp-logo-600x338.png"alt="whatsapp"/>
+        <a href="#">Whatsapp</a>
+      </li>
+      <li>
+        <img class="logorrss1" src="imagenes/descarga.png" alt="telefono"/>
+        Teléfono: 02936 412662
+      </li>
+  </ul>
+  </div>
+</footer>
+<!--Fin pie de página-->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

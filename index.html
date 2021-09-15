@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="La farmacia de tu barrio a un click de distancia! Variedad de productos y marcas: Barbijos, Vacunas, Perfumería.">
+    <meta name="keywords" content="farmacia, medicamentos, barbijos, alcohol, pami, vacunas">
+    <link rel="stylesheet" href="estilos.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Farmacia de la Ciudad</title>
+</head>
+<body>
+<header>
+<div class="container">
+<!--Logo-->
+        <div class="row">
+            <img class="logo" src="imagenes/default.png" alt="logo">
+        </div>
+<!--Inicio menú bootstrap-->
+<nav>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="dropdown navbar">
+      <button class="btn boton dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+        Menú
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <li><a class="menu2" href="perfumeria.html" target="blanck"><button class="dropdown-item" type="button">Perfumería</a></button></li>
+        <li><a class="menu2" href="cuidadoDeLaSalud.html" target="blanck"><button class="dropdown-item" type="button">Cuidado de la salud</a></button></li>
+        <li><a class="menu2" href="suplementosDietarios.html" target="blanck"><button class="dropdown-item" type="button">Suplementos dietarios</a></button></li>
+        <li><a class="menu2" href="ortopedia.html" target="blanck"><button class="dropdown-item" type="button">Ortopedia</a></button></li>
+        <li><a class="menu2" href="reservaDeMedicamentos.html" target="blanck"><button class="dropdown-item" type="button">Reserva de medicamentos</a></button></li>
+      </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+            <button class="btn boton" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <div class="col-md-2">
+      <p><a href="###"><button class="btn boton" type="submit">Iniciar sesión</button></a></p>
+    </div>
+  </div>
+</nav>
+<!--Fin menú bootstrap-->
+
+</header>
+<!--Inicio slider con productos destacados-->
+        <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+              <img src="imagenes/slider1.png" class="d-block w-100" alt="serum">
+              </div>
+              <div class="carousel-item">
+              <img src="imagenes/slider2.jpg" class="d-block w-100" alt="nivea">
+              </div>
+              <div class="carousel-item">
+              <img src="imagenes/slider3.jpg" class="d-block w-100" alt="oralB">
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+<!--Fin slider-->
+<br>
+<!--Inicio calendario-->
+<div class="row">
+  <h4 class="titulo2">Turnos del mes de Septiembre</h4>
+    <section>
+        <iframe
+        class="calendario"
+        src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%2333B679&amp;ctz=America%2FArgentina%2FBuenos_Aires&amp;src=aWVraTNicWszZGR2c2hucGhtdWw1cHE0cDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%233F51B5&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0"
+        style="border: solid 1px #777"
+        width="500"
+        height="300"
+        frameborder="0"
+        scrolling="no"></iframe>
+    </section>
+</div>   
+<!--Fin calendario-->
+<hr>
+<div class="row">
+  <h2 class="ooss">Obras sociales</h2>
+    <ul class="listaOOSS">
+      <li><img class="picOOSS" src="imagenes/ooss/ioma-logo.png" alt="ioma"></li>
+      <li><img class="osde" src="imagenes/ooss/osde-logo.jpg" alt="osde"></li>
+      <li><img class="picOOSS" src="imagenes/ooss/pami-logo.jpg" alt="pami"></li>
+      <li><img class="picOOSS" src="imagenes/ooss/up-logo.jpg" alt="up"></li>
+      <li><img class="picOOSS" src="imagenes/ooss/avalian-logo.png" alt="avalian"></li>
+    </ul>
+</div>
+<!--Fin obras sociales y turnos mensuales-->
+<hr>
+<!--Logos de las secciones-->
+<div class="row">
+  <div class="col-md-3">
+    <a href="cuidadoDeLaSalud.html"><img class="logosecc" src="imagenes/Cuidado-de-la-salud.png" alt="cuidadoDeLaSalud"></a>
+    <p class="titulo2">Cuidado de la salud</p>
+  </div>
+  <div class="col-md-3">
+    <a href="perfumeria.html"><img class="logosecc" src="imagenes/fragancias_blanco.png" alt="perfumeria"></a>
+    <p class="titulo2">Perfumería</p>
+  </div>
+  <div class="col-md-3">
+    <a href="ortopedia.html"><img class="logosecc" src="imagenes/Ortopedia.png" alt="ortopedia"></a>
+    <p class="titulo2">Ortopedia</p>
+  </div>
+  <div class="col-md-3">
+    <a href="suplementosDietarios.html"><img class="logosecc" src="imagenes/suplementos_blanco.png" alt="suplementosDietarios"></a>
+    <p class="titulo2">Suplementos dietarios</p>
+  </div>
+</div>
+<!--Fin logos de las secciones-->
+<hr>
+<!--Inicio pie de página-->
+<h3 class="titulo2">Información de contacto</h3>
+<footer class="footer">
+    <div>
+      <a href="contacto.html" target="blanck"><h4>Formulario de contacto</h4></a>
+      <p>Horarios de atención: ###</p>
+      <p>Dirección: <a href="https://www.google.com/maps/place/Farmacia+de+la+Ciudad+de+Carhue/@-37.1820857,-62.7608476,18z/data=!4m5!3m4!1s0x95ea2705b0f3e5c9:0x17cfc708907c0ee9!8m2!3d-37.1818975!4d-62.7605322">Av. San Martin y Laprida - Carhué</a></p>
+    </div>
+    <div>
+      <ul class="rrss">
+        <li>
+          <img class="logorrss"src="imagenes/600px-Facebook_f_logo_(2019).svg.png"alt="facebook"/>
+          <a href="#">Facebook</a>
+      </li>
+      <li>
+          <img class="logorrss"src="imagenes/Instagram-logo-500x500.png"alt="instagram"/>
+          <a href="#">Instagram</a>
+      </li>
+      <li>
+        <img class="logorrss1"src="imagenes/WhatsApp-logo-600x338.png"alt="whatsapp"/>
+        <a href="#">Whatsapp</a>
+      </li>
+      <li>
+        <img class="logorrss1" src="imagenes/descarga.png" alt="telefono"/>
+        Teléfono: 02936 412662
+      </li>
+  </ul>
+  </div>
+</footer>
+<!--Fin pie de página-->
+<script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
