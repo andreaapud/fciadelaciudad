@@ -46,7 +46,11 @@
   width: 200px;
   height: 200px;
   display: block;
-  margin: auto; }
+  margin: auto;
+  display: flex;
+  flex-direction: row; 
+  list-style: none;
+  justify-content: space-evenly; }
 
 .body__pic__ooss {
   width: 225px;
@@ -101,7 +105,7 @@
 .footer__rrss {
   list-style: none; }
 
-.footer__logos__rrss {
+.footer__logo__rrss {
   width: 50px;
   height: 50px; }
 
