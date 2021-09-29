@@ -62,7 +62,7 @@
   font-weight: bold;
   display: inline; }
 
-.body__logos_secciones {
+.body__logos__secciones {
   background-color: aquamarine;
   width: 100px;
   height: 100px;
@@ -98,7 +98,7 @@
   grid-template-columns: 2fr 2fr;
   justify-items: center; }
 
-.footer__rrs {
+.footer__rrss {
   list-style: none; }
 
 .footer__logos__rrss {
