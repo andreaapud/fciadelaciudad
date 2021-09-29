@@ -1,7 +1,6 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -268,5 +267,14 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreaapud/fciadelaciudad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreaapud/fciadelaciudad/issues"
+  },
+  "homepage": "https://github.com/andreaapud/fciadelaciudad#readme",
+  "description": ""
 }

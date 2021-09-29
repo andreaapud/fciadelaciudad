@@ -1,15 +1,11 @@
-/*Variables*/
 .header__logo {
-  background-color: white;
   margin: auto;
-  display: block;
-  width: 1000px; }
+  display: block; }
 
 .header__nav {
-  width: 1200px;
+  width: 1000px;
   margin: 30px auto;
-  background-color: #c1ffc1;
-  padding: 12px; }
+  background-image: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6); }
 
 .header__nav__menu {
   list-style: none;
@@ -30,10 +26,157 @@
 
 .body__titulo {
   display: flex;
+  color: black;
+  font-weight: 600;
   justify-content: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
 
 .body__calendario {
   display: block;
-  margin: auto;
-  width: 500px; }
+  margin: auto; }
+
+.body__ooss {
+  display: grid;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.body__lista__ooss {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto; }
+
+.body__pic__ooss {
+  width: 225px;
+  height: 225px;
+  display: grid; }
+
+.body__pic__osde {
+  width: 230px;
+  height: 200px; }
+
+.body__lista2 {
+  color: #070707;
+  font-weight: bold;
+  display: inline; }
+
+.body__logos_secciones {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: block;
+  margin: auto; }
+
+.body__titulo3 {
+  color: #33543C;
+  font-weight: 800;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
+.body__lista3 {
+  color: #070707;
+  font-weight: bold;
+  display: inline; }
+
+.body__parrafo {
+  text-align: center; }
+
+.imagen__uno {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto; }
+
+.footer {
+  background-image: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+  height: 50x;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-items: center; }
+
+.footer__rrs {
+  list-style: none; }
+
+.footer__logos__rrss {
+  width: 50px;
+  height: 50px; }
+
+.footer__logo__rrss1 {
+  width: 80px;
+  height: 40px; }
+
+.footer__formulario {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.secciones__titulos {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center; }
+
+.secciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center; }
+
+.secciones__pics {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto; }
+
+.secciones__boton {
+  background-image: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+  font-weight: bold;
+  border-radius: 5px; }
+
+@media only screen and (max-width: 320px) {
+  .header__logo {
+    display: grid;
+    margin: auto;
+    width: 300px; }
+  .body__lista__ooss {
+    display: grid;
+    margin: auto; }
+  .body__pic__osde {
+    display: grid;
+    margin: auto; }
+  .body__calendario {
+    width: 300px;
+    height: 200px; }
+  .body__titulo {
+    display: grid;
+    margin: auto;
+    font-size: 25px;
+    justify-items: start; }
+  .secciones__titulos {
+    display: grid;
+    margin: auto;
+    font-size: 20px;
+    justify-items: start; }
+  .secciones__pics {
+    display: grid;
+    margin: auto;
+    width: 120px;
+    height: 120px; }
+  .secciones {
+    display: grid;
+    margin: auto;
+    font-size: 12px;
+    align-items: center;
+    justify-content: start; }
+  .body__titulo {
+    display: grid;
+    font-size: medium; }
+  .footer {
+    display: grid;
+    margin: auto;
+    float: left;
+    width: 100%; }
+  .div {
+    float: left;
+    width: 100%; } }
