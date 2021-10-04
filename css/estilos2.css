@@ -1,3 +1,9 @@
+.contenedor {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "header header header" "nav nav nav" "body body body" "secc secc secc" "footer footer footer"; }
+
 .header__logo {
   margin: auto;
   display: block; }
@@ -45,10 +51,9 @@
 .body__lista__ooss {
   width: 200px;
   height: 200px;
-  display: block;
-  margin: auto;
   display: flex;
-  flex-direction: row; 
+  margin: auto;
+  flex-direction: row;
   list-style: none;
   justify-content: space-evenly; }
 
@@ -138,49 +143,35 @@
   font-weight: bold;
   border-radius: 5px; }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
+  .html {
+    overflow-x: hidden; }
+  .html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important; }
   .header__logo {
-    display: grid;
-    margin: auto;
-    width: 300px; }
-  .body__lista__ooss {
-    display: grid;
-    margin: auto; }
-  .body__pic__osde {
-    display: grid;
-    margin: auto; }
+    grid-column-start: header;
+    grid-column-end: header;
+    width: 250px; }
   .body__calendario {
-    width: 300px;
-    height: 200px; }
-  .body__titulo {
-    display: grid;
-    margin: auto;
-    font-size: 25px;
-    justify-items: start; }
-  .secciones__titulos {
-    display: grid;
-    margin: auto;
-    font-size: 20px;
-    justify-items: start; }
-  .secciones__pics {
-    display: grid;
-    margin: auto;
-    width: 120px;
-    height: 120px; }
-  .secciones {
-    display: grid;
-    margin: auto;
-    font-size: 12px;
-    align-items: center;
-    justify-content: start; }
-  .body__titulo {
-    display: grid;
-    font-size: medium; }
+    grid-area: body;
+    width: 250px; }
+  .body__ooss {
+    grid-area: body;
+    display: none; }
+  .body__lista__ooss {
+    grid-area: body;
+    display: none; }
   .footer {
-    display: grid;
-    margin: auto;
-    float: left;
-    width: 100%; }
+    grid-area: footer;
+    width: 360px; }
+  .secciones {
+    grid-area: secc;
+    width: 100%;
+    flex-direction: column; }
   .div {
-    float: left;
-    width: 100%; } }
+    grid-area: secc;
+    justify-content: center; }
+  .secciones__pics {
+    grid-area: secc;
+    flex-direction: column; } }
